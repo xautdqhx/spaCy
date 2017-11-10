@@ -5,6 +5,7 @@ from fabric.api import local, lcd, env, settings, prefix
 from fabtools.python import virtualenv
 from os import path, environ
 
+#add to test
 
 PWD = path.dirname(__file__)
 ENV = environ['VENV_DIR'] if 'VENV_DIR' in environ else '.env'
